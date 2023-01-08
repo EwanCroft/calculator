@@ -1,6 +1,11 @@
 num_1 = float(input("What is the first number?: "))
 num_2 = float(input("What is the second number?: "))
 
+numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ".", ","]
+
+if num_1 != numbers or num_2 != numbers:
+    quit()
+
 print("1. Addition\n"
       "2. Subtraction\n"
       "3. Division\n"
